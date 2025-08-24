@@ -46,5 +46,3 @@ function updateWeatherInfo(data) {
     windKphElement.textContent = `${data.current.wind_kph} kph`;
     humidityElement.textContent = `${data.current.humidity}%`;
 }
-
-fetchWeatherData('London');
