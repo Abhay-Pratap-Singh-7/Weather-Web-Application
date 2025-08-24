@@ -1,7 +1,7 @@
 
 const api_key = '1f4b3cb25abc4f72af190427252408'
 
-const BASE_URL = 'http://api.weatherapi.com/v1/current.json'
+const BASE_URL = 'https://api.weatherapi.com/v1/current.json'
 
 const https = 'https:'
 
