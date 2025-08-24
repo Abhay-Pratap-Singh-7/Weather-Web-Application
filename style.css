@@ -1,0 +1,149 @@
+* {
+    padding: 0;
+    margin: 0;
+    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    box-sizing: border-box;
+}
+
+body {
+    background: #222;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+}
+
+.container {
+    width: 90%;
+    max-width: 670px;
+    min-height: 72vh;
+    height: auto;
+    padding: 30px;
+    text-align: center;
+    border-radius: 50px;
+    background: #2d2d2d;
+    border: 0.5px solid #6a6a6a;
+    position: relative;
+}
+
+.container h1 {
+    font-size: 20px;
+    color: #fff;
+}
+
+.container hr {
+    margin: 20px 0;
+    border: 0;
+    border-top: .5px solid #6a6a6a;
+}
+
+.search {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+}
+
+.search input {
+    width: 95%;
+    height: 70px;
+    background: #474747;
+    padding: 24px 25px;
+    border-radius: 50px;
+    border: 0.5px solid #6a6a6a;
+    outline: none;
+    font-size: 16px;
+    transform: none;
+    resize: none;
+    position: absolute;
+    bottom: 15px;
+    color: #c8c8c8;
+    scrollbar-width: none;
+}
+
+.search button {
+    position: absolute;
+    border: none;
+    bottom: 35px;
+    right: 50px;
+    background: transparent;
+    cursor: pointer;
+    outline: none;
+}
+
+.info {
+    color: #c8c8c8;
+    text-align: left;
+    margin-top: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+}
+
+.info h2 {
+    font-size: 25px;
+    margin-bottom: 10px;
+}
+
+.info p {
+    font-size: 18px;
+    margin: 8px 0;
+}
+
+.condition {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: row;
+    gap: 30px;
+}
+.div2 img , .div3 img, .temperature img {
+    filter: invert(1);
+}
+.div1 , .div2 , .div3 {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    text-align: center;
+    border: 0.5px solid #6a6a6a;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 150px;
+    min-height: 150px;
+    max-width: 150px;
+    max-height: 150px;
+    margin-top: 15px;
+}
+.div1 p, .div2 p, .div3 p {
+    font-size: 15px;
+    margin: 10px;
+
+}
+
+.temperature {
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: center;
+    border: 0.5px solid #6a6a6a;
+    border-radius: 10px;
+    padding: 10px;
+    min-width: 510px;
+    min-height: 150px;
+    margin-top: 15px;
+}
+
+.temperature_p{
+    font-size: 50px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+    margin: 0 10px;
+}
+
+.search img {
+    filter: invert(1);
+}

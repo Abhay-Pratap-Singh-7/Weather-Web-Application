@@ -1,0 +1,47 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title> WEATHER </title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1> WEATHER </h1>
+        <hr>
+        <div class="info">
+            <h2 id="location">London, United Kingdom</h2>
+            <div class="condition">
+
+                <div class="div1">
+                    <img src="https://cdn.weatherapi.com/weather/64x64/day/113.png" width="40px" id="condition_img">
+                    <p id="condition">Cloudy</p>
+                </div>
+
+                <div class="div2">
+                    <img src="wind.png" width="30px">
+                    <p id="wind_kph">5.4 kph</p>
+                </div>
+
+                <div class="div3">
+                    <img src="humidity.png" width="30px">
+                    <p id="humidity">41%</p>
+                </div>
+
+            </div>
+            <div class="temperature">
+                <img src="temperature.png" width="50px">
+                <div class="temperature_p">
+                    <p id="temp_c">24.3°C</p>
+                </div>
+            </div>
+        </div>
+        <div class="search">
+            <input type="text" id="search_area" placeholder="Enter name of city...">
+            <button id="search-btn"> <img src="search-interface-symbol.png" width="25px"> </button>
+        </div>
+    </div>
+    <script src="script.js"></script>
+</body>
+</html>
