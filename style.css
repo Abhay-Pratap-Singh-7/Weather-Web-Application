@@ -6,7 +6,8 @@
 }
 
 body {
-    background: #222;
+    background-image: url('scott-webb-3LsocYqXWpM-unsplash.jpg');
+    background-size: 100%;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -21,20 +22,21 @@ body {
     padding: 30px;
     text-align: center;
     border-radius: 50px;
-    background: #2d2d2d;
-    border: 0.5px solid #6a6a6a;
+    background: #e9e9e9;
+    border: 0.5px solid #595959;
     position: relative;
+    opacity: 60%;
 }
 
 .container h1 {
     font-size: 20px;
-    color: #fff;
+    color: #000000;
 }
 
 .container hr {
     margin: 20px 0;
     border: 0;
-    border-top: .5px solid #6a6a6a;
+    border-top: .5px solid #000000;
 }
 
 .search {
@@ -47,17 +49,17 @@ body {
 .search input {
     width: 95%;
     height: 70px;
-    background: #474747;
+    background: #cccccc;
     padding: 24px 25px;
     border-radius: 50px;
-    border: 0.5px solid #6a6a6a;
+    border: 0.5px solid #252525;
     outline: none;
     font-size: 16px;
     transform: none;
     resize: none;
     position: absolute;
     bottom: 15px;
-    color: #c8c8c8;
+    color: #000000;
     scrollbar-width: none;
 }
 
@@ -72,7 +74,7 @@ body {
 }
 
 .info {
-    color: #c8c8c8;
+    color: #000000;
     text-align: left;
     margin-top: 20px;
     display: flex;
@@ -97,9 +99,6 @@ body {
     justify-content: center;
     flex-direction: row;
     gap: 30px;
-}
-.div2 img , .div3 img, .temperature img {
-    filter: invert(1);
 }
 .div1 , .div2 , .div3 {
     display: flex;
@@ -127,7 +126,7 @@ body {
     flex-direction: row;
     align-items: center;
     justify-content: center;
-    border: 0.5px solid #6a6a6a;
+    border: 0.5px solid #000000;
     border-radius: 10px;
     padding: 10px;
     min-width: 510px;
@@ -142,8 +141,4 @@ body {
     justify-content: center;
     flex-direction: column;
     margin: 0 10px;
-}
-
-.search img {
-    filter: invert(1);
 }
